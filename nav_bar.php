@@ -1,3 +1,4 @@
+<link rel="icon" type="image/jpeg" href="icon.jpg">
 <?php
 // Garante que a sessão está iniciada para verificar o login
 if (session_status() === PHP_SESSION_NONE) {

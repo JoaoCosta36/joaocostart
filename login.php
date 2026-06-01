@@ -30,11 +30,11 @@ if (isset($_POST['login'])) {
 ?>
 <!DOCTYPE html>
 <html lang="pt">
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head><link rel="icon" href="icon.jpg" type="image/jpg"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
    
     <title>Login | João Costa</title>
-    <link rel="stylesheet" href="style.css?v=2.3">
+    <link rel="stylesheet" href="style.css?v=2.8">
 </head>
 <body>
 

@@ -103,6 +103,8 @@ body::before {
     max-width: 1100px;
     margin: 0 auto;
     padding: 10px;
+    /* Correção para o footer: garante espaço mínimo para o conteúdo */
+    min-height: calc(100vh - 250px); 
 }
 
 .content-block {
@@ -222,7 +224,7 @@ input, textarea, select {
 /* --- 6. MEDIA QUERIES (REFORÇADAS) --- */
 
 @media (max-width: 850px) {
-    body { padding-top: 250px !important; } /* Aumentado para o menu empilhado */
+    body { padding-top: 250px !important; }
 
     .nav_bar {
         height: auto !important;
@@ -237,7 +239,7 @@ input, textarea, select {
     }
 
     .nav-links {
-        flex-direction: column !important; /* LINKS EM LISTA VERTICAL NO MOBILE */
+        flex-direction: column !important; 
         gap: 8px !important;
         width: 100%;
     }
@@ -249,7 +251,7 @@ input, textarea, select {
     .nav-links a {
         display: block;
         padding: 8px;
-        background: rgba(212, 178, 106, 0.05); /* Efeito de botão leve */
+        background: rgba(212, 178, 106, 0.05);
         border-radius: 4px;
         font-size: 0.9rem;
     }
@@ -298,6 +300,7 @@ img, video, iframe {
     max-width: 100% !important;
     height: auto !important;
 }
+
 /* --- FOOTER --- */
 .main-footer {
     background: rgba(10, 8, 5, 0.98);
@@ -337,7 +340,7 @@ img, video, iframe {
     border-top: 2px solid #d4b26a;
     padding: 20px;
     z-index: 10000;
-    display: none; /* Escondido por padrão via JS */
+    display: none; 
 }
 
 .cookie-content {
@@ -361,4 +364,10 @@ img, video, iframe {
         flex-direction: column;
         text-align: center;
     }
+}
+
+/* CORREÇÃO PARA NAVBAR E ADS */
+ins.adsbygoogle {
+    max-width: 100vw !important;
+    overflow: hidden !important;
 }

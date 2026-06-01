@@ -4,11 +4,11 @@ include "nav_bar.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt">
-<head>
+<head><link rel="icon" href="icon.jpg" type="image/jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termos e Condições | João Costa</title>
-    <link rel="stylesheet" href="style.css?v=2.3">
+    <link rel="stylesheet" href="style.css?v=2.8">
 </head>
 <body>
 
